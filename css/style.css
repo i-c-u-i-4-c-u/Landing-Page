@@ -28,6 +28,8 @@ header {
     justify-content: center;
     padding: 20px;
     background: #1f2937;
+    color: #f9faf8;
+
 }
 
 .header-container {
@@ -39,7 +41,6 @@ header {
 
 .logo {
     font-size: 24px;
-    color: #f9faf8;
     font-weight: 600;
 }
 
@@ -72,11 +73,11 @@ section {
 }
 
 .hero-card-img {
-    background-color: bisque;
+    background-color:#aebddc;
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#aebddc;
+    color: bisque;
 }
 
 .hero-card h2 {
@@ -94,14 +95,14 @@ section {
 }
 .hero-card button {
     background-color: #3882f6;
-    padding : 10px 20px;
+    padding : 5px 15px;
     border-radius: 10px;
     font-weight: 600;
     border:none;
     outline: none;
     color: #e5e7eb;
     font-size: 1.2rem;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 /* Content */
 
@@ -160,6 +161,8 @@ section {
     font-style: italic;
     font-size: 36px;
     color: #1f2937;
+    line-height: 1.4;
+
 }
 
 .quote-name {
@@ -177,6 +180,8 @@ section {
 }
 
 .action-container {
+    display: flex;
+    justify-content: center;
     background-color: #3882f6;
     border-radius: 10px;
     color: #f9faf8;
@@ -185,7 +190,40 @@ section {
 
 .action-container-bx {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 800px;
-    padd
+}
+
+.action-bx p {
+    
+    margin-top: 5px;
+}
+
+.action-button {
+    margin-top: auto;
+}
+.action-button button {
+    background-color: #3882f6;
+    padding : 5px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    border:#e5e7eb solid 2px;
+    outline: none;
+    color: #e5e7eb;
+    font-size: 1.2rem;
+}
+
+/* Footer Section */
+.footer-section {
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+    background: #1f2937;
+    color: #f9faf8;
+}
+
+.footer-section p {
+    font-size: small;
+    color: #e5e7eb;
+
 }
